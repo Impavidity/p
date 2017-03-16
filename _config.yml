@@ -1,0 +1,46 @@
+
+# html lang
+language: en
+
+# main menu navigation
+menu:
+  Home: /
+  About: /about
+  Contact: /contact
+  Archives: /archives
+
+
+home_nav:
+    - name: Home
+      url: /
+      target_blank: true
+    - name: Tech
+      url: /archives
+      target_blank: true
+    - name: Project
+      url: /projects
+      target_blank: true
+    - name: API
+      url: /apis
+      target_blank: false
+    - name: Life
+      url: /life
+      target_blank: true
+    - name: Github
+      url: https://github.com/Impavidity
+      target_blank: false
+
+blog_name: Peng's Home
+blog_slogan: Interesting
+avatar: /images/bkdefault_avatar.jpg
+
+# Miscelaneous
+favicon: /favicon.ico
+
+# stylesheets loaded in the <head>
+stylesheets:
+- /css/p.css
+
+# scripts loaded in the end of the body
+scripts:
+- /js/p.js

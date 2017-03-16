@@ -1,0 +1,48 @@
+html,body {
+    overflow: hidden;
+    background: #fafafa;
+}
+.home-content {
+    position: absolute;
+    width: 100%;
+    top: 30%;
+}
+.home-slogan {
+    color: #555;
+    font-size: 150%;
+}
+.avatar {
+    height: 100px;
+    width:  100px;
+    border-radius: 50%;
+}
+.text-center {
+    text-align: center;
+}
+.item {
+    display: inline-block;
+}
+.nav {
+    padding-left: 0px;
+    color: #bbb;
+}
+
+a:link {
+    color: #000;
+    text-decoration: none;
+}
+a:visited {
+    color: #000;
+}
+a:hover {
+    color: #e67e22;
+}
+a:active {
+    color: #e67e22;
+}
+
+h1[title] {
+    color: #282828;
+    font-size: 40px;
+    font-weight: 900;
+}

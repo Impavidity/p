@@ -1,0 +1,23 @@
+<div class="home-content text-center">
+    <a>
+        <img class="avatar" src="<%= theme.avatar%>" alt="" />
+    </a>
+    <h1 title="blog_name">
+        <%= theme.blog_name %>
+    </h1>
+    
+    <div class="home-slogan">
+        <%= theme.blog_slogan %>
+    </div>
+
+    <ul class="text-center nav">
+        <% theme.home_nav.forEach(function(item, i) {%>
+            <li class="item">
+                <% if (true) {%>
+                    <a href="<%= item.url%>"><%= item.name %></a>
+                <% }%>
+                <span>|</span>
+            </li>
+        <%}) %>
+    </ul>
+</div>

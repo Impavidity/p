@@ -1,0 +1,10 @@
+
+<% if (is_home()) {%>
+  <%- partial('partials/index_head') %>
+  <%- body %>
+  <%- partial('partials/index_footer') %>
+<% } else {%>
+  <%- partial('partials/head') %>
+  <%- body %>
+  <%- partial('partials/footer') %>
+<% } %>
