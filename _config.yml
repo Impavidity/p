@@ -15,7 +15,7 @@ home_nav:
       url: /
       target_blank: true
     - name: Tech
-      url: /archives
+      url: /tech
       target_blank: true
     - name: Project
       url: /projects
@@ -25,6 +25,9 @@ home_nav:
       target_blank: false
     - name: Life
       url: /life
+      target_blank: true
+    - name: About
+      url: /about
       target_blank: true
     - name: Github
       url: https://github.com/Impavidity

@@ -3,8 +3,9 @@
 var categoriesList = list_categories({ show_count: false }),
   tagsList = list_tags({ show_count: false }),
   archivesList = list_archives({ show_count: false });
+  postsList = list_posts({show_count:false});
 %>
-
+<!--
 <% if (!is_year()) { %>
   <div id="archive">
 
@@ -72,5 +73,16 @@ var categoriesList = list_categories({ show_count: false }),
   <% }); %>
 
 <% } %>
+-->
+
+
+<h2>POSTS</h2>
+<% if (postsList) { %>
+  <%-postsList%>
+<% } else { %>
+  <p>None.</p>
+<% } %>
+
+
 
 <%-partial('partials/pagination')%>

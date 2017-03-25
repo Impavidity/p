@@ -1,6 +1,7 @@
 html,body {
     overflow: hidden;
-    background: #fafafa;
+    background: #f2f2f2;
+    font-family: Lato,Helvetica,Tahoma,Arial,"Hiragino Sans GB","Heiti SC","Microsoft YaHei","WenQuanYi Micro Hei",Heiti,ubuntu,SimSun,sans-serif;
 }
 .home-content {
     position: absolute;
