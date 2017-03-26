@@ -20,8 +20,8 @@ home_nav:
     - name: Project
       url: /projects
       target_blank: true
-    - name: API
-      url: /apis
+    - name: Daily
+      url: /daily
       target_blank: false
     - name: Life
       url: /life
